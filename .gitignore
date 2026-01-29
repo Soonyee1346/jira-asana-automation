@@ -1,4 +1,7 @@
-**/constants.js
-node_modules/
 .clasp.json
 creds.json
+scripts.html
+node_modules/
+package-lock.json
+.DS_Store
+Thumbs.db

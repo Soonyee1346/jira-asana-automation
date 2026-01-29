@@ -1,11 +1,11 @@
-const LOGS_SPREADSHEET_ID = '1rSfrcpZOFmyrD56SH_9_vICmP2DjyfP6LpZGtfzVpLs';
+const LOGS_SPREADSHEET_ID = props.getProperty('LOGS_SPREADSHEET_ID');
 
-const JIRA_API_TOKEN = "ATATT3xFfGF0kafLct1ASKK1mK51xHlYpVC-5-Oh6EcaP3iwv4fLhhu53hb2UXCPNGdOVCe5O9hh2BcOsiqqc1u_3WgpBl74I03pSZ_8rJQBd_ctFXvrmQl6EGCuqaY2GDdpD4lRBA5YKKLCnkPDs1WhGRP5nPsfWJX2kD6ynTm2DB8Q5RceOq4=6154945E";
-const JIRA_EMAIL = "sunyee.zheng@xero.com";
-const JIRA_URL = "https://xero.atlassian.net"
+const JIRA_API_TOKEN = props.getProperty('JIRA_API_TOKEN');
+const JIRA_EMAIL = props.getProperty('JIRA_EMAIL');
+const JIRA_URL = props.getProperty('JIRA_URL');
 
-const ASANA_API_TOKEN = "2/1209720270391663/1212674348410700:e6f2a381e3c53d73a11620745817002e"
-const ASANA_PROJECT_ID = "1212674240671193"
+const ASANA_API_TOKEN = props.getProperty('ASANA_API_TOKEN');
+const ASANA_PROJECT_ID = props.getProperty('ASANA_PROJECT_ID');
 
 const COMPUTER_NAME_MAP = {
   'Physical Device - Macbook (Standard)' : '1212684489261906', // Mac T1
