@@ -36,7 +36,7 @@ const LOCATION_NAME_MAP = {
   "AU: Western Australia Remote Worker": "1212684488912614",
   "AU: Tasmania Remote Worker": "1212684488912616",
   "AU: Australian Captial Terrirory Remote Worker" : "1212684488912606",
-  "AU: Northern Territory Remote" : ""
+  "AU: Northern Territory Remote" : "1212684488912613"
 
 }
 
