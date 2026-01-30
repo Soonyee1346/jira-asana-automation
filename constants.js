@@ -1,3 +1,5 @@
+const props = PropertiesService.getScriptProperties();
+
 const LOGS_SPREADSHEET_ID = props.getProperty('LOGS_SPREADSHEET_ID');
 
 const JIRA_API_TOKEN = props.getProperty('JIRA_API_TOKEN');
