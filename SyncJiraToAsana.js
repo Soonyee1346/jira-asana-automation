@@ -2,7 +2,7 @@ function getJiraTicket() {
 
   const url = `${JIRA_URL}/rest/api/3/search/jql`;
 
-  const jqlQuery = 'status IN (New, Open, Pending, "On Hold") AND summary ~ "STARTER" AND (summary ~ "Australia" OR summary ~ "AU:" OR summary ~ "India" OR summary ~ "PH:")';
+  const jqlQuery = 'status IN (New, Open, Pending, "On Hold") AND summary ~ "STARTER" AND (summary ~ "Australia" OR summary ~ "AU:" OR summary ~ "India" OR summary ~ "PH:" OR summary ~ "Singapore")';
 
   const authString = Utilities.base64Encode(JIRA_EMAIL + ":" + JIRA_API_TOKEN);
 
